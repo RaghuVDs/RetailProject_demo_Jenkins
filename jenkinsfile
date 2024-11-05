@@ -18,9 +18,9 @@ pipeline {
             }
         }
 	
-	stage('Package') {
+	stage('deploy') {
             steps {
-               echo "package completed successfully"
+               echo "package completed successfully and done"
             }
         }
   
